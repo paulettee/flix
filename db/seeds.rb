@@ -174,34 +174,34 @@ Movie.create!([
     image_file_name: "wonder-woman.png"
   },
   {
-title: "Minions: The Rise of Guru",
-description:
- %{
-   In the heart of the 1970s, amidst a flurry of feathered hair and flared jeans, Gru (Steve Carell) is growing up in the suburbs. A fanboy of a supervillain supergroup known as the
-   Vicious 6, Gru hatches a plan to become evil enough to join them. Luckily, he gets some mayhem-making back-up from his loyal followers, the Minions.
- }.squish,
-  released_on: "2022-06-01",
-  rating: "PG",
-  total_gross: 913_199_540,
-  director: "Kyle Balda",
-  duration: "87 min",
-  image_file_name: "minions.png"
-},
-{
-  title: "DC League of Super-Pets",
-  description:
-   %{
-     When the Justice League are captured by Lex Luthor, Superman's dog, Krypto, forms a team of shelter-pets who were given super-powers: A hound named Ace, who becomes super-strong,
-     a pig named PB, who can grow to giant-size, a turtle named Merton, who becomes super-fast, and a squirrel named Chip, who gains electric-powers.
-   }.squish,
-  released_on: "2022-12-29",
-  rating: "PG",
-  total_gross: 177_560_000,
-  director: "Jared Stern",
-  duration: "105 min",
-  image_file_name: "super-pets.png"
-},
-{
+    title: "Minions: The Rise of Guru",
+    description:
+    %{
+      In the heart of the 1970s, amidst a flurry of feathered hair and flared jeans, Gru (Steve Carell) is growing up in the suburbs. A fanboy of a supervillain supergroup known as the
+      Vicious 6, Gru hatches a plan to become evil enough to join them. Luckily, he gets some mayhem-making back-up from his loyal followers, the Minions.
+     }.squish,
+    released_on: "2022-06-01",
+    rating: "PG",
+    total_gross: 913_199_540,
+    director: "Kyle Balda",
+    duration: "87 min",
+    image_file_name: "minions.png"
+  },
+  {
+    title: "DC League of Super-Pets",
+    description:
+    %{
+      When the Justice League are captured by Lex Luthor, Superman's dog, Krypto, forms a team of shelter-pets who were given super-powers: A hound named Ace, who becomes super-strong,
+      a pig named PB, who can grow to giant-size, a turtle named Merton, who becomes super-fast, and a squirrel named Chip, who gains electric-powers.
+     }.squish,
+    released_on: "2022-12-29",
+    rating: "PG",
+    total_gross: 177_560_000,
+    director: "Jared Stern",
+    duration: "105 min",
+    image_file_name: "super-pets.png"
+  },
+  {
   title: "Aquaman",
   description:
   %{
@@ -212,8 +212,7 @@ description:
   },
   released_on: "2018-12-21",
   rating: "PG-13",
-  total_gross: 1_148_528_393
-,
+  total_gross: 1_148_528_393,
   director: "James Wan",
   duration: "143 min",
   image_file_name: "aquaman.png"
