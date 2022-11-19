@@ -229,9 +229,12 @@ Genre.create!([
   ["Spider-Man", "spiderman.png"],
   ["Batman", "batman.png"],
   ["Catwoman", "catwoman.png"],
-  ["Wonder Woman", "wonder-woman.png"]
+  ["Wonder Woman", "wonder-woman.png"],
+  ["Minions: The Rise of Guru", "minions.png"],
+  ["Aquaman", "aquaman.png"],
+  ["DC League of Super-Pets", "super-pets.png"]
 ].each do |movie_title, file_name|
-  movie = movie.find_by!(title: "#{movie_title}")
+  movie = Movie.find_by!(title: "#{movie_title}")
   file = File.open(Rails.root.join("app/assets/images/#{file_name}"))
-  movie.main_image.attach(io: file, filename: file_name })
+  movie.main_image.attach(io: file, filename: file_name )
 end
